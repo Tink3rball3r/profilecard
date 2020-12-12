@@ -1,0 +1,102 @@
+.user-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 20.3125rem;
+  margin: auto;
+  background: url(/images/bg-pattern-card.svg) white;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-radius: 0.9375rem;
+}
+
+.user-card_avatar {
+  width: 96px;
+  height: 96px;
+  margin: 88px 0 0 0;
+  border: 5px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user-card_info {
+  margin: 1.3em 0;
+}
+
+.user-card_stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 1.3em 0;
+  border-top: 1px solid lightgray;
+}
+
+.user-card_stats p {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+h1,
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.8;
+  color: #2d3248;
+}
+
+span {
+  color: #6a6f81;
+}
+
+.user-card_location {
+  font-size: 14px;
+  color: #6a6f81;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/bg-pattern-top.svg) calc(50% - 450px) calc(50% - 460px) no-repeat, url(../images/bg-pattern-bottom.svg) calc(50% + 450px) calc(50% + 460px) no-repeat, #19a2ae;
+}
+/*# sourceMappingURL=main.css.map */

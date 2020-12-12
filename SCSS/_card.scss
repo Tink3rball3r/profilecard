@@ -1,0 +1,57 @@
+.user-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 20.3125rem;
+	margin: auto;
+	background: url(/images/bg-pattern-card.svg) white;
+	background-repeat: no-repeat;
+	background-position: top;
+	// color: $primaryColorLight;
+	border-radius: 0.9375rem;
+}
+
+.user-card_avatar {
+	width: 96px;
+	height: 96px;
+	margin: 88px 0 0 0;
+	border: 5px solid white;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.user-card_info {
+	margin: 1.3em 0;
+}
+
+.user-card_stats {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	padding: 1.3em 0;
+	border-top: 1px solid lightgray;
+
+	p {
+		font-size: 12px;
+		letter-spacing: 1px;
+	}
+}
+
+h1,
+h2 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.8;
+	color: $primaryShadow;
+}
+
+span {
+	color: $primaryColorLight;
+}
+
+.user-card_location {
+	font-size: 14px;
+	color: $primaryColorLight;
+}

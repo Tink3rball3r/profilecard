@@ -1,0 +1,28 @@
+@import 'base';
+@import 'card';
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+.main-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	background: url(../images/bg-pattern-top.svg) calc(50% - 450px) calc(50% - 460px) no-repeat,
+		url(../images/bg-pattern-bottom.svg) calc(50% + 450px) calc(50% + 460px) no-repeat, $primaryColor;
+}
